@@ -1,40 +1,73 @@
-rail Microservice
+Trail Microservice
 This project is a microservice for managing trails, implemented in Python using Flask. It provides a RESTful API for performing CRUD operations on trails, which consist of a series of location points owned by users. The data is stored in a Microsoft SQL Server database.
 
 Project Structure
 trail-microservice/
+
 ├── Dockerfile/
+
 │   └── Docker
+
 ├── src/
+
 │   ├── __pycache__/
+
 │   ├── .dockerignore
+
 │   ├── app.py
+
 │   ├── controllers/
+
 │   │   ├── __pycache__/
+
 │   │   └── trail_controller.py
+
 │   ├── database_test.py
+
 │   ├── database.py
+
 │   ├── docker-compose.yml
+
 │   ├── Dockerfile
+
 │   ├── models/
+
 │   │   ├── __pycache__/
+
 │   │   ├── trail_model.py
+
 │   │   └── user_model.py
+
 │   ├── README.md
+
 │   ├── requirements.txt
+
 │   ├── routes/
+
 │   │   ├── __init__.py
+
 │   │   ├── __pycache__/
+
 │   │   └── trail_routes.py
+
 │   ├── services/
+
 │   │   ├── __pycache__/
+
 │   │   └── trail_service.py
+
 │   ├── templates/
+
 │   │   └── index.html
+
 │   └── utils/
+
 │       ├── __pycache__/
+
 │       ├── auth.py
+
 │       └── security.py
+
 └── SQLQuery_1.sql                     # Project documentation
 Setup Instructions
 Clone the repository:
