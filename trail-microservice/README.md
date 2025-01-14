@@ -45,7 +45,7 @@ trail-microservice/
 
 1. **Clone the repository:**
    ```
-   git clone <repository-url>
+   git clone https://github.com/HBizzy/COMP2001-Report
    cd trail-microservice
    ```
 
@@ -66,6 +66,7 @@ trail-microservice/
    To build and run the microservice using Docker, execute:
    ```
    docker-compose up --build
+   docker run -p 5000:5000 my-flask-app
    ```
 
 ## API Endpoints
@@ -80,9 +81,6 @@ trail-microservice/
 
 This microservice implements measures to mitigate common vulnerabilities as outlined by the OWASP Top 10. Ensure to validate inputs and handle authentication and authorization appropriately.
 
-## Swagger Documentation
-
-The API is documented using Swagger for easy reference and testing. Access the Swagger UI at `/swagger` after running the microservice.
 
 ## License
 
