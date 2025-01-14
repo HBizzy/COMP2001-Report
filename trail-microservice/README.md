@@ -68,6 +68,11 @@ trail-microservice/
    docker-compose up --build
    docker run -p 5000:5000 my-flask-app
    ```
+6. **Login Token**
+   To get the token need to run this in command prompt 
+   ```
+   curl -X POST http://localhost:5000/login -u grace@plymouth.ac.uk:ISAD123!
+   ```
 
 ## API Endpoints
 - ""POST /login**: Login in and recieve token.
